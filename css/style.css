@@ -1,0 +1,167 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    min-width:1200px;
+    font-family: 'Righteous', sans-serif;
+    color: #fff;
+    background-color: #000;
+
+}
+/*---global---*/
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    margin: 0;
+}
+
+.section-offset {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.blue {
+    color: #0f487d;
+}
+
+.red {
+    color: #990000;
+}
+
+/*---header-section---*/
+
+.header {
+    background-color: rgba(30,30,30, 0.6);
+    position: sticky;
+    top: 0;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-logo-image {
+    padding: 20px 0;
+}
+
+.header-container {
+    align-items: center;
+}
+
+.header-nav {
+    margin-right: 198px;
+    font-size: 1rem;
+
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.header-btns {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.header-btn {
+    padding: 8px 23px;
+}
+
+.btn {
+    background-color: #0f487d;
+    border: none;
+    border-radius: 15px;
+}
+
+/*---Fitness section---*/
+
+.fitness {
+    padding: 67px 0 376px  0;
+    background-image: url(../img/background-gimp.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.fitness-container {
+}
+
+.fitness-content {
+    max-width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.fitness-title {
+    margin: 0 0 75px;
+}
+
+.fitness-descr {
+    margin: 0 0 20px;
+    font-size: 0.75rem;
+}
+
+.fitness-btn {
+    padding: 12px 33px;
+    font-size: 0.75rem;
+}
+
+/*---Services section---*/
+
+.services-title {
+    text-align: center;
+}
+
+.services-list {
+    padding:75px 0 170px;
+    justify-content: center;
+}
+.services-item-title {
+    margin: 0;
+}
