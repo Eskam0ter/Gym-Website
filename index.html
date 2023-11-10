@@ -8,6 +8,7 @@
     <title>Gym</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 <body>
 <header class="header">
     <div class="container flex header-container">
-        <a href="#" class="header-logo header-logo-link">
+        <a href="index.html" class="header-logo header-logo-link">
             <img src="./img/logo.svg" class="header-logo header-logo-image" alt="Logo">
         </a>
         <nav class="header-nav uppercase">
@@ -43,11 +44,11 @@
             </ul>
         </nav>
         <div class="header-btns flex ">
-            <button class="btn-reset btn header-btn uppercase">
-                sign in
-            </button>
-            <button class="btn-reset header-btn uppercase">
+            <button id="signupBtn" class="btn-reset btn header-btn uppercase">
                 sign up
+            </button>
+            <button id="signinBtn" class="btn-reset header-btn uppercase">
+                sign in
             </button>
         </div>
 
@@ -183,6 +184,8 @@
         </div>
     </section>
 </main>
+
+<script src="./js/script.js"></script>
 
 </body>
 </html>

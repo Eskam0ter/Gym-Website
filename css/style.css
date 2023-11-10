@@ -25,7 +25,11 @@ body {
     font-family: 'Righteous', sans-serif;
     color: #fff;
     background-color: #000;
+}
 
+::selection {
+    color: #fff;
+    background:  #0f487d;
 }
 /*---global---*/
 
