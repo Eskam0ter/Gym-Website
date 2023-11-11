@@ -12,40 +12,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 <body>
-<main>
-    <div class="container flex">
-        <h1 class="uppercase">
-            Create an account
-        </h1>
+    <header class="sing-up-header">
+        <div class="container sing-up-header-container flex">
+            <a href="index.html" class="sing-up-header-logo">
+                <img src="./img/logo.svg" class="sign-up-header-logo" alt="Logo">
+            </a>
+            <h1 class="sign-up-title uppercase">
+                Create an account
+            </h1>
+        </div>
+    </header>
+    <div class="container flex sign-up-form-container">
         <form id="register" method="post" action="">
-            <div>
-                <label class="email uppercase">
-                    Email: <input type="text" name="email" id="email">
+            <div class="label-container flex">
+                <label class="uppercase sign-up-input-title" for="email">
+                    Email:
                 </label>
+                <input type="email" name="email" id="email" class="sign-up-input">
             </div>
-            <div>
-                <label>
-                    Password: <input type="text" name="pass1" id="pass1">
+            <div class="label-container flex">
+                <label class="uppercase sign-up-input-title" for="pass1">
+                    Password:
                 </label>
+                <input type="password" name="pass1" id="pass1" class="sign-up-input">
             </div>
-            <div>
-                <label>
-                    Password Again: <input type="text" name="pass2" id="pass2">
+            <div class="label-container flex">
+                <label class="uppercase sign-up-input-title" for="pass2">
+                    Password Again:
                 </label>
+                <input type="password" name="pass2" id="pass2" class="sign-up-input">
             </div>
-            <div>
-                <button class="uppercase btn" type="submit">register</button>
+            <div class="flex sign-up-btn-container">
+                <button class="uppercase btn btn-reset sign-up-btn" type="submit">register</button>
             </div>
         </form>
+        <p>Already have one?</p>
+        <a href="signin.html">Sign in</a>
     </div>
-</main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
 
-<!--
-TODO:
-1)Изменить цвет текста инпута
-2) Правмильно разместить всё флексом
-3) Дописать стили кнопке
-4) Расписать классы у всех инпутов
--->

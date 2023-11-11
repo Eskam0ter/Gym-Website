@@ -83,7 +83,7 @@ body {
     color: #990000;
 }
 
-/*---header-section---*/
+/*---Header---*/
 
 .header {
     background-color: rgba(30,30,30, 0.6);
@@ -280,4 +280,56 @@ body {
 
 .contacts-list-item-email {
     background-image: url("../img/mail.svg");
+}
+
+/*---Footer---*/
+
+.footer-container {
+    border-top: #fff solid 1px;
+}
+
+/*-------------------------------------------SIGN UP PAGE-------------------------------------------------------------*/
+
+.sign-up-header-logo {
+    margin-right: 20px;
+}
+
+.sign-up-title {
+    margin: 0;
+}
+
+.sing-up-header-container {
+    padding-top: 10%;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form-container {
+    flex-direction: column;
+    align-items: center ;
+}
+
+.label-container {
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.sign-up-btn {
+    margin: 0 auto;
+    padding: 25px 65px;
+    border-radius: 30px;
+}
+
+.sign-up-form-container {
+    justify-content: center;
+}
+
+.sign-up-input {
+    color: #000;
+}
+
+.sign-up-input-title {
+    font-size: 1.5rem;
+    margin-right: 35px;
 }
