@@ -92,7 +92,7 @@ body {
 }
 
 .header-logo {
-    margin-right: auto;
+    /*margin-right: auto;*/
 }
 
 .header-logo-image {
@@ -101,10 +101,11 @@ body {
 
 .header-container {
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-nav {
-    margin-right: 198px;
+    /*margin-right: 198px;*/
     font-size: 1rem;
 
 }

@@ -14,8 +14,8 @@
 <body>
 <header class="sing-up-header">
     <div class="container sing-up-header-container flex">
-        <a href="index.html" class="sing-up-header-logo">
-            <img src="./img/logo.svg" class="sign-up-header-logo" alt="Logo">
+        <a class="sing-up-header-logo" href="index.html">
+            <img class="sign-up-header-logo" src="./img/logo.svg" alt="Logo">
         </a>
         <h1 class="sign-up-title uppercase">
             Welcome !
@@ -23,21 +23,21 @@
     </div>
 </header>
 <div class="container flex sign-up-form-container">
-    <form id="register" method="post" action="">
+    <form id="register" method="post" action="#">
         <div class="label-container flex">
             <label class="uppercase sign-up-input-title" for="email">
                 Email:
             </label>
-            <input type="email" name="email" id="email" class="sign-up-input">
+            <input class="sign-up-input" id="email" type="email" name="email">
         </div>
         <div class="label-container flex">
             <label class="uppercase sign-up-input-title" for="pass1">
                 Password:
             </label>
-            <input type="password" name="pass1" id="pass1" class="sign-up-input">
+            <input class="sign-up-input" id="pass1" type="password" name="pass1">
         </div>
         <div class="flex sign-up-btn-container">
-            <button class="uppercase btn btn-reset sign-up-btn" type="submit">Sign in</button>
+            <button class="uppercase btn btn-reset sign-up-btn" id="loginBtn">Sign in</button>
         </div>
     </form>
     <p>Don't have an account?</p>

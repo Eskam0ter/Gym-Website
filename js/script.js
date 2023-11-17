@@ -5,3 +5,4 @@ document.getElementById("signupBtn").onclick = function () {
 document.getElementById("signinBtn").onclick = function () {
     location.href = "signin.html";
 };
+

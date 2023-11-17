@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign in</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,8 @@
 <body>
     <header class="sing-up-header">
         <div class="container sing-up-header-container flex">
-            <a href="index.html" class="sing-up-header-logo">
-                <img src="./img/logo.svg" class="sign-up-header-logo" alt="Logo">
+            <a class="sing-up-header-logo" href="index.html">
+                <img class="sign-up-header-logo" src="./img/logo.svg" alt="Logo">
             </a>
             <h1 class="sign-up-title uppercase">
                 Create an account
@@ -28,22 +28,22 @@
                 <label class="uppercase sign-up-input-title" for="email">
                     Email:
                 </label>
-                <input type="email" name="email" id="email" class="sign-up-input">
+                <input class="sign-up-input" id="email" type="email" name="email">
             </div>
             <div class="label-container flex">
                 <label class="uppercase sign-up-input-title" for="pass1">
                     Password:
                 </label>
-                <input type="password" name="pass1" id="pass1" class="sign-up-input">
+                <input class="sign-up-input" id="pass1" type="password" name="pass1">
             </div>
             <div class="label-container flex">
                 <label class="uppercase sign-up-input-title" for="pass2">
                     Password Again:
                 </label>
-                <input type="password" name="pass2" id="pass2" class="sign-up-input">
+                <input class="sign-up-input" id="pass2" type="password" name="pass2">
             </div>
             <div class="flex sign-up-btn-container">
-                <button class="uppercase btn btn-reset sign-up-btn" type="submit">register</button>
+                <button class="uppercase btn btn-reset sign-up-btn" id="registerBtn" type="submit">register</button>
             </div>
         </form>
         <p>Already have one?</p>
