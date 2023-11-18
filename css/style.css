@@ -55,7 +55,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -81,6 +81,10 @@ body {
 
 .red {
     color: #990000;
+}
+
+.list-item:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 /*---Header---*/
@@ -333,4 +337,40 @@ body {
 .sign-up-input-title {
     font-size: 1.5rem;
     margin-right: 35px;
+}
+
+/*-------------------------------------------ACCOUNT PAGE-------------------------------------------------------------*/
+.account-container {
+    /*justify-content: space-between;*/
+    padding-top: 75px;
+}
+
+.account-img {
+    margin-right:10%;
+    border-radius: 100%;
+}
+
+.account-list {
+    padding-top: 25px;
+    margin-right: 20%;
+}
+
+.account-btn {
+    align-self: end;
+    padding: 10px 15px;
+}
+
+/*-------------------------------------------RESERVATIONS PAGE-------------------------------------------------------------*/
+
+.reservations-container {
+    justify-content: space-between;
+}
+
+.reservations-list {
+    list-style: decimal;
+}
+
+.reservations-btn {
+    align-self: end;
+    padding: 15px 10px;
 }
